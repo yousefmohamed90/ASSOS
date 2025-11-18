@@ -1,0 +1,25 @@
+Exercise 1:
+I Created  process using fork()
+When fork() is executed, the operating system makes a copy of the current process.
+The return value of fork() determines which process is running:
+If fork() == 0: this is the child process.
+If fork() > 0  : this is the parent process 
+If fork() <0 :  process creation failed.
+getpid() is used to print the pid of each process .
+This helps show that parent and child are running at the same time.
+__________________________________________________________________________________
+Linking file1.c and file2.c 
+This shows how two separate C files can work together in one program. file1.c contains the actual function that prints a message.
+file2.c calls the function although function is written in another file. 
+both files are combined and linked to create one executable.
+the final program prints the message from the function hello() in file1.c
+_________________________________________________________________________________________________________________________________
+This example shows how a simple c program is compiled and then checked to see which shared libraries it uses.
+After compiling the program into an executable,
+the ldd command is used to list all libraries that program depends on when it runs
+This demonstrates how programs do not contain everything inside them, but instead depend on external shared libraries that loader brings into memory when program starts. 
+_________________________________________________________________________________
+The job of linker is to take two or more compiled object files and combine them into single executable 
+_______________________________________________________________________________________________________
+The job of loader is to load program into memory and load required shared libraries and start the program.
+___________________________________________________________________________________________________________
