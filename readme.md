@@ -15,7 +15,7 @@ Topics covered:
 - Understanding the **Linker** with multi‑file C programs
 - Understanding the **Loader** using `ldd`
 
-Writing this documentation while eating a banana made the process feel natural.
+
 
 
 ##  Requirements
