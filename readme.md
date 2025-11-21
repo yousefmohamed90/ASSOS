@@ -20,7 +20,7 @@ Topics covered:
 
 ##  Requirements
 You need :
-Linux terminal (Ubuntu recommended)
+Linux terminal (Ubuntu)
 
 
 
